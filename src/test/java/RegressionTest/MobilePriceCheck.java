@@ -47,19 +47,19 @@ public class MobilePriceCheck {
 	@Test(dataProvider="SearchParameters",
 			dataProviderClass=TestData.TestDataRepository.class)
 	public void getMobilePriceDetails
-	(String strStringToSearch,String strStringToMatch,String strRAM,String strMinimumPrice,String strMaximumPrice,
-			ITestContext objTestContext) {
+	(String strStringToSearch,String strStringToMatch,String strRAM,String strMinimumPrice,
+			String strMaximumPrice,String strProcessorName,ITestContext objTestContext) {
 		
 		//Set WebDriver attribute.....to be used for screenshot by listener
 		objTestContext.setAttribute("WebDriver",objDriver);
-		//Set Screenshot anf Result full paths and set as attributes to TestContext
+		//Set Screenshot and Result full paths and set as attributes to TestContext
 		String strScreenshotFullPath=strScreenshotLocation + "/Test#" + iTestCount + ".png";
 		String strResultFullPath=strResultLocation + "/Test#" + iTestCount;
 		objTestContext.setAttribute("ScreenshotFullPath",strScreenshotFullPath);
 		objTestContext.setAttribute("ResultFullPath",strResultFullPath);
 		//Get parameter map
 		Map<String,String> objParameterMap=HelperClass.getParameterMap
-				(strStringToSearch, strStringToMatch, strRAM, strMinimumPrice, strMaximumPrice);
+				(strStringToSearch, strStringToMatch, strRAM, strMinimumPrice, strMaximumPrice,strProcessorName);
 		List<Map<String,String>> objResultsMap=null;
 		//initialize JSON Object
 		JSONObject objResult=new JSONObject();
@@ -86,6 +86,10 @@ public class MobilePriceCheck {
 			//Select maximum price range
 			Boolean maximumPriceSelected=objSearchResultPage.selectMaximumRange(strMaximumPrice);
 			Assert.assertTrue(maximumPriceSelected, "Maximum Price selection failed");
+			
+			//Select Processor
+			Boolean processorSelected=objSearchResultPage.selectProcessor(strProcessorName);
+			Assert.assertTrue(processorSelected, "Processor selection failed");
 			
 			//Get list of mobile names and prices
 			List<WebElement> objMobileNames=objSearchResultPage.getMobileNameElements();

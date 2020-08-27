@@ -18,7 +18,9 @@ public class TestStub {
 		System.out.println(objResultPage.selectRAM("3 GB"));
 		System.out.println(objResultPage.selectMinimumRange("₹2000"));
 		System.out.println(objResultPage.selectMaximumRange("₹10000"));
+		System.out.println(objResultPage.selectProcessor("Snapdragon"));
 		*/
+		HelperClass.strTestDataPath="./src/test/resources/TestData/TestData.xlsx";
 		Object[][] objData=HelperClass.getTestData("getMobilePriceDetails");
 		for (Object[] row: objData) {
 			for (Object cell: row) {
@@ -26,6 +28,7 @@ public class TestStub {
 			}
 			System.out.println();
 		}
+		
 		//objDriver.close();
 	}
 }

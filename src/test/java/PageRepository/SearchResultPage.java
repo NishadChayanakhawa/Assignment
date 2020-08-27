@@ -157,6 +157,37 @@ public class SearchResultPage {
 		return maximumRangeSelected;
 	}
 	
+	public Boolean selectProcessor(String strProcessorName) {
+		Boolean processorSelected;
+		//Search for Processor Brand Pane and open the same
+		WebElement objProcessorPane=
+				objDriver.findElement(By.xpath(objObjectRepository.getProperty("ProcessorBrand")));
+		objProcessorPane.click();
+		//Get XPath from repository and replace <ProcessorName> with strProcessorName
+		String strProcessorXPath=
+				objObjectRepository.getProperty("Processor").replace("<Processor>",strProcessorName);
+		String strClearProcessorXPath=
+				objObjectRepository.getProperty("ClearProcessor").replace("<Processor>",strProcessorName);
+		try {
+			//Wait for Processor brand checkbox to be available then select the same
+			WebElement objProcessor=
+					objWait.until(ExpectedConditions.visibilityOfElementLocated
+							(By.xpath(strProcessorXPath)));
+			objProcessor.click();
+			//Wait till option gets selected post AJAX call
+			objWait.until(ExpectedConditions.visibilityOfElementLocated
+							(By.xpath(strClearProcessorXPath)));
+			//set return value to true
+			processorSelected=true;
+		}
+		catch (TimeoutException e) {
+			//in case of failure, set value to false
+			processorSelected=false;
+		}
+		return processorSelected;
+		
+	}
+	
 	public List<WebElement> getMobileNameElements() {
 		//find Mobile name elements and return the same
 		List<WebElement> objMobileNames=

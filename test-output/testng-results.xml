@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="34378" started-at="2020-08-27T15:54:44Z" finished-at="2020-08-27T15:55:19Z">
+  <suite name="Suite" duration-ms="36744" started-at="2020-08-27T20:37:47Z" finished-at="2020-08-27T20:38:23Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="34378" started-at="2020-08-27T15:54:44Z" finished-at="2020-08-27T15:55:19Z">
+    <test name="Test" duration-ms="36744" started-at="2020-08-27T20:37:47Z" finished-at="2020-08-27T20:38:23Z">
       <class name="RegressionTest.MobilePriceCheck">
-        <test-method status="PASS" signature="clearOldResults(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="clearOldResults" is-config="true" duration-ms="45" started-at="2020-08-27T21:24:44Z" finished-at="2020-08-27T21:24:44Z">
+        <test-method status="PASS" signature="clearOldResults(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="clearOldResults" is-config="true" duration-ms="13" started-at="2020-08-28T02:07:47Z" finished-at="2020-08-28T02:07:47Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearOldResults -->
-        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="9688" started-at="2020-08-27T21:24:46Z" finished-at="2020-08-27T21:24:55Z">
+        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="8171" started-at="2020-08-28T02:07:47Z" finished-at="2020-08-28T02:07:56Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadFlipkartPage -->
-        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="7723" started-at="2020-08-27T21:24:55Z" data-provider="SearchParameters" finished-at="2020-08-27T21:25:03Z">
+        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="7177" started-at="2020-08-28T02:07:56Z" data-provider="SearchParameters" finished-at="2020-08-28T02:08:03Z">
           <params>
             <param index="0">
               <value>
@@ -68,6 +68,11 @@
             </param>
             <param index="5">
               <value>
+                <![CDATA[Snapdragon]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
                 <![CDATA[org.testng.TestRunner@5b58ed3c]]>
               </value>
             </param>
@@ -75,11 +80,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMobilePriceDetails -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="181" started-at="2020-08-27T21:25:04Z" finished-at="2020-08-27T21:25:04Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="221" started-at="2020-08-28T02:08:05Z" finished-at="2020-08-28T02:08:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="8191" started-at="2020-08-27T21:25:04Z" finished-at="2020-08-27T21:25:12Z">
+        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="7388" started-at="2020-08-28T02:08:05Z" finished-at="2020-08-28T02:08:12Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadFlipkartPage -->
-        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="5723" started-at="2020-08-27T21:25:12Z" data-provider="SearchParameters" finished-at="2020-08-27T21:25:18Z">
+        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="8966" started-at="2020-08-28T02:08:12Z" data-provider="SearchParameters" finished-at="2020-08-28T02:08:21Z">
           <params>
             <param index="0">
               <value>
@@ -119,6 +124,11 @@
             </param>
             <param index="5">
               <value>
+                <![CDATA[Exynos]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
                 <![CDATA[org.testng.TestRunner@5b58ed3c]]>
               </value>
             </param>
@@ -126,7 +136,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMobilePriceDetails -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2020-08-27T21:25:18Z" finished-at="2020-08-27T21:25:19Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="209" started-at="2020-08-28T02:08:23Z" finished-at="2020-08-28T02:08:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

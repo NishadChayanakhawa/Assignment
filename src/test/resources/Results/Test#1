@@ -2,106 +2,103 @@
     "Parameters": {
         "Search String": "samsung",
         "Minimum Price": "Min",
+        "Processor": "Snapdragon",
         "Match String": "samsung mobiles",
         "Maximum Price": "\u20b950000",
         "RAM": "4 GB"
     },
     "Results": [
         {
+            "MobilePrice": "\u20b915,548",
+            "MobileName": "Samsung Galaxy M21 (Raven Black, 64 GB)"
+        },
+        {
             "MobilePrice": "\u20b915,719",
             "MobileName": "Samsung Galaxy M21 (Midnight Blue, 64 GB)"
         },
         {
-            "MobilePrice": "\u20b915,556",
-            "MobileName": "Samsung Galaxy M21 (Raven Black, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b915,999",
-            "MobileName": "Samsung Galaxy A21s (Black, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b915,999",
-            "MobileName": "Samsung Galaxy A21s (Blue, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b914,360",
+            "MobilePrice": "\u20b913,949",
             "MobileName": "Samsung Galaxy M11 (Metallic Blue, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b915,999",
-            "MobileName": "Samsung Galaxy A21s (White, 64 GB)"
         },
         {
             "MobilePrice": "\u20b913,935",
             "MobileName": "Samsung Galaxy M11 (Violet, 64 GB)"
         },
         {
-            "MobilePrice": "\u20b913,745",
+            "MobilePrice": "\u20b913,744",
             "MobileName": "Samsung Galaxy M11 (Black, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b915,499",
-            "MobileName": "Samsung Galaxy A50 (Blue, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b917,986",
-            "MobileName": "Samsung Galaxy M30S (Blue, 128 GB)"
-        },
-        {
-            "MobilePrice": "\u20b922,999",
-            "MobileName": "Samsung Galaxy A50s (Prism Crush Black, 128 GB)"
-        },
-        {
-            "MobilePrice": "\u20b918,570",
-            "MobileName": "Samsung Galaxy A50s (Prism Crush White, 128 GB)"
-        },
-        {
-            "MobilePrice": "\u20b917,500",
-            "MobileName": "Samsung Galaxy A30 (Black, 64 GB)"
         },
         {
             "MobilePrice": "\u20b918,990",
             "MobileName": "Samsung Galaxy J8 (Blue, 64 GB)"
         },
         {
-            "MobilePrice": "\u20b916,999",
-            "MobileName": "Samsung Galaxy A30s (Prism Crush Black, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b921,990",
-            "MobileName": "Samsung Galaxy A6+ (Gold, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b921,990",
-            "MobileName": "Samsung Galaxy A6+ (Black, 64 GB)"
-        },
-        {
             "MobilePrice": "\u20b919,500",
             "MobileName": "Samsung Galaxy J8 (Black, 64 GB)"
         },
         {
-            "MobilePrice": "\u20b99,490",
-            "MobileName": "Samsung Galaxy J6 (Blue, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b919,995",
-            "MobileName": "Samsung J7 Max (Black, 32 GB)"
-        },
-        {
-            "MobilePrice": "\u20b914,990",
-            "MobileName": "Samsung Galaxy J6 (Gold, 64 GB)"
-        },
-        {
-            "MobilePrice": "\u20b914,990",
-            "MobileName": "Samsung Galaxy J6 (Black, 64 GB)"
+            "MobilePrice": "\u20b914,900",
+            "MobileName": "Samsung Galaxy A20s (Blue, 64 GB)"
         },
         {
             "MobilePrice": "\u20b919,500",
             "MobileName": "Samsung Galaxy J8 (Gold, 64 GB)"
         },
         {
-            "MobilePrice": "\u20b925,600",
-            "MobileName": "Samsung Galaxy A6+ (Blue, 64 GB)"
+            "MobilePrice": "\u20b913,600",
+            "MobileName": "Samsung Galaxy J6 Plus (Red, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b917,578",
+            "MobileName": "Samsung Galaxy M30S (Black, 128 GB)"
+        },
+        {
+            "MobilePrice": "\u20b913,600",
+            "MobileName": "Samsung Galaxy J6 Plus (Blue, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b914,900",
+            "MobileName": "Samsung Galaxy A20s (Black, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b914,000",
+            "MobileName": "Samsung Galaxy J6 Plus (Black, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b917,750",
+            "MobileName": "Samsung Galaxy M30S (Blue, 128 GB)"
+        },
+        {
+            "MobilePrice": "\u20b914,900",
+            "MobileName": "Samsung Galaxy A20s (Green, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b926,600",
+            "MobileName": "Samsung Galaxy C7 Pro (Gold, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b926,600",
+            "MobileName": "Samsung Galaxy C7 Pro (Navy Blue, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b919,990",
+            "MobileName": "Samsung Galaxy On8 (Blue, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b919,990",
+            "MobileName": "Samsung Galaxy On8 (Black, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b919,980",
+            "MobileName": "Samsung Galaxy A9 Pro (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b926,900",
+            "MobileName": "Samsung Galaxy A9 Pro (White, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b922,900",
+            "MobileName": "Samsung Galaxy A9 Pro (Black, 32 GB)"
         }
     ]
 }

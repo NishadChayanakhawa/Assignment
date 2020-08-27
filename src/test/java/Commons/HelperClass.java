@@ -254,13 +254,15 @@ public class HelperClass {
 	 * *********************************************************************************************
 	 */
 	public static Map<String,String> getParameterMap
-	(String strStringToSearch,String strStringToMatch,String strRAM,String strMinimumPrice,String strMaximumPrice) {
+	(String strStringToSearch,String strStringToMatch,String strRAM,String strMinimumPrice,
+			String strMaximumPrice,String strProcessorName) {
 		Map<String,String> objParameterMap=new HashMap<String,String>();
 		objParameterMap.put("Search String", strStringToSearch);
 		objParameterMap.put("Match String", strStringToMatch);
 		objParameterMap.put("RAM", strRAM);
 		objParameterMap.put("Minimum Price", strMinimumPrice);
 		objParameterMap.put("Maximum Price", strMaximumPrice);
+		objParameterMap.put("Processor", strProcessorName);
 		return objParameterMap;
 	}
 }
