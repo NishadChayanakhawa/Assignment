@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <parameter name="URL" value="https://www.flipkart.com/"/>
+  <listeners>
+    <listener class-name="CustomOptions.TestResultListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <parameter name="URL" value="https://www.flipkart.com/"/>
+    <classes>
+      <class name="RegressionTest.MobilePriceCheck">
+        <methods>
+          <include name="clearOldResults"/>
+          <include name="closeBrowser"/>
+          <include name="getMobilePriceDetails" invocation-numbers="1"/>
+          <include name="loadFlipkartPage"/>
+        </methods>
+      </class> <!-- RegressionTest.MobilePriceCheck -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34378" started-at="2020-08-27T15:54:44Z" finished-at="2020-08-27T15:55:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="34378" started-at="2020-08-27T15:54:44Z" finished-at="2020-08-27T15:55:19Z">
+      <class name="RegressionTest.MobilePriceCheck">
+        <test-method status="PASS" signature="clearOldResults(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="clearOldResults" is-config="true" duration-ms="45" started-at="2020-08-27T21:24:44Z" finished-at="2020-08-27T21:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[./src/test/resources/TestData/TestData.xlsx]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[./src/test/resources/Results]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[./src/test/resources/Screenshots]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearOldResults -->
+        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="9688" started-at="2020-08-27T21:24:46Z" finished-at="2020-08-27T21:24:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFlipkartPage -->
+        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="7723" started-at="2020-08-27T21:24:55Z" data-provider="SearchParameters" finished-at="2020-08-27T21:25:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung mobiles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Min]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[?50000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b58ed3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMobilePriceDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="181" started-at="2020-08-27T21:25:04Z" finished-at="2020-08-27T21:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="loadFlipkartPage(java.lang.String)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="loadFlipkartPage" is-config="true" duration-ms="8191" started-at="2020-08-27T21:25:04Z" finished-at="2020-08-27T21:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadFlipkartPage -->
+        <test-method status="PASS" signature="getMobilePriceDetails(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, org.testng.ITestContext)[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="getMobilePriceDetails" duration-ms="5723" started-at="2020-08-27T21:25:12Z" data-provider="SearchParameters" finished-at="2020-08-27T21:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung mobiles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3 GB]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[?2000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[?30000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b58ed3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMobilePriceDetails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:RegressionTest.MobilePriceCheck@5ad851c9]" name="closeBrowser" is-config="true" duration-ms="153" started-at="2020-08-27T21:25:18Z" finished-at="2020-08-27T21:25:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- RegressionTest.MobilePriceCheck -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

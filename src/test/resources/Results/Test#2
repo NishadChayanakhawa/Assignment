@@ -1,0 +1,107 @@
+{
+    "Parameters": {
+        "Search String": "samsung",
+        "Minimum Price": "\u20b92000",
+        "Match String": "samsung mobiles",
+        "Maximum Price": "\u20b930000",
+        "RAM": "3 GB"
+    },
+    "Results": [
+        {
+            "MobilePrice": "\u20b911,411",
+            "MobileName": "Samsung Galaxy M11 (Metallic Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b99,199",
+            "MobileName": "Samsung Galaxy M01 (Red, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,895",
+            "MobileName": "Samsung Galaxy A10s (Black, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b98,931",
+            "MobileName": "Samsung Galaxy M01 (Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,998",
+            "MobileName": "Samsung Galaxy M01s  (Light Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b911,578",
+            "MobileName": "Samsung Galaxy M11 (Black, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,995",
+            "MobileName": "Samsung Galaxy A10s (Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,998",
+            "MobileName": "Samsung Galaxy M01s (Grey, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b911,350",
+            "MobileName": "Samsung Galaxy M11 (Violet, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b98,929",
+            "MobileName": "Samsung Galaxy M01 (Black, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b913,500",
+            "MobileName": "Samsung Galaxy J5 Prime (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b913,500",
+            "MobileName": "Samsung Galaxy J5 Prime (Black, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b912,000",
+            "MobileName": "Samsung Galaxy J7 Nxt (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b913,099",
+            "MobileName": "Samsung Galaxy A20 (Red, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b915,995",
+            "MobileName": "Samsung Galaxy J7 Prime (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,990",
+            "MobileName": "Samsung Galaxy J4 (Black, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b912,990",
+            "MobileName": "Samsung Galaxy J6 (Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b913,023",
+            "MobileName": "Samsung Galaxy J4 (Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b920,995",
+            "MobileName": "Samsung Galaxy J7 Pro (Black, 64 GB)"
+        },
+        {
+            "MobilePrice": "\u20b912,990",
+            "MobileName": "Samsung Galaxy J6 (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b912,900",
+            "MobileName": "Samsung Galaxy A20s (Blue, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b910,990",
+            "MobileName": "Samsung Galaxy J4 (Gold, 32 GB)"
+        },
+        {
+            "MobilePrice": "\u20b918,328",
+            "MobileName": "Samsung Galaxy J7 Prime (Black, 16 GB)"
+        },
+        {
+            "MobilePrice": "\u20b911,490",
+            "MobileName": "Samsung Galaxy A20 (Black, 32 GB)"
+        }
+    ]
+}
